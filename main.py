@@ -54,11 +54,11 @@ def match_query(df, query):
     return df.sort_values(by='similarity', ascending=False).head(10)
 
 # File paths
-csv_files = [r'C:\Users\manoj\OneDrive\Desktop\Flipkart\Motorola Edge 50 Pro 5G_reviews.csv',
-             r'C:\Users\manoj\OneDrive\Desktop\Flipkart\OnePlus 11R 5G_reviews.csv',
-             r'C:\Users\manoj\OneDrive\Desktop\Flipkart\POCO X6 Pro 5G_reviews.csv',
-             r'C:\Users\manoj\OneDrive\Desktop\Flipkart\realme 12 Pro+ 5G_reviews.csv',
-             r'C:\Users\manoj\OneDrive\Desktop\Flipkart\SAMSUNG Galaxy S22 5G_reviews.csv']
+csv_files = ['csv-1',
+            'csv-2',
+            'csv-3',
+            'csv-4',
+            'csv-5',]
 
 # Streamlit App
 st.title('Product Review Sentiment Analysis')
