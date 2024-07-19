@@ -1,4 +1,4 @@
-## Flipkart Product Review Sentiment Analysis
+#### Flipkart Product Review Sentiment Analysis
 # Project Description
 This project involves scraping product reviews from Flipkart and performing sentiment analysis on the collected data. The goal is to provide insights into customer sentiments and match user queries with the most relevant reviews. The analysis is done using natural language processing (NLP) techniques, and the results are visualized using a Streamlit app.
 
